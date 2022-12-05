@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>This is awesome</div>
+        <audio id="audio" src="/moan.mp3"></audio>;
+    </body>
+    <script>
+        function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+
+        document.addEventListener("mousedown", play);
+    </script>
+</html>
