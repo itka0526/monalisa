@@ -1,8 +1,26 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Mona Lisa</title>
+        <style>
+            html,
+            body {
+                overflow: hidden;
+            }
+            #context {
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
     <body>
-        <div>This is awesome</div>
-        <audio id="audio" src="/moan.mp3"></audio>;
+        <div id="context">
+            <h3>Click anywhere! :)</h3>
+        </div>
+        <audio id="audio" src="https://github.com/itka0526/monalisa/blob/main/moan.mp3?raw=true"></audio>;
     </body>
     <script>
         function play() {
